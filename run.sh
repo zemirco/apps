@@ -6,9 +6,9 @@ set -o nounset
 
 curl \
 	--verbose \
-	--header "Authorization: Token 3af70274-2cd7-46f7-8d83-f8c96487bb0e" \
+	--header "Authorization: Token 6d55cb11-16ee-47f6-b477-45fbe19ca8af" \
 	--header "Content-Type: application/json" \
-	--data "{\"value\":10,\"sha\":\"${CIRCLE_SHA1}\"}" \
-	"https://noname.serveo.net/api/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/awesome/values"
+	--data "{\"value\":4,\"sha\":\"${CIRCLE_SHA1}\"}" \
+	"https://dev.mircozeiss.com/api/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/foo/values"
 
 exit 0
