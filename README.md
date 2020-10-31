@@ -11,7 +11,7 @@
 - nine
 - ten
 - eleven
-- 12
+- twelve
 - 13
 - 14
 - 15
